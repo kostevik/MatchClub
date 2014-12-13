@@ -52,7 +52,7 @@ def create_grid(database):
       number_of_matches = 0
       for information_available in person1:
 
-        EXCLUDED = ['Name','Highschool', 'Grade', 'Sex']
+        EXCLUDED = ['Name','Highschool', 'Grade', 'Sex', 'Nationality']
         if information_available in EXCLUDED:
           continue
 
